@@ -1,0 +1,44 @@
+.title-text, .contacts-block{
+    text-align: center;
+}
+
+.image-partners{
+    width: 200px;
+}
+
+.social-icon{
+    width: 34px;
+    height: 34px;
+}
+p{
+    font-size: var(--h5);
+}
+
+h1, p, a, h3{
+    font-family: Plumb;
+}
+
+@font-face{
+    src: url(./font/plumb-bold.otf);
+    font-family: Plumb;
+}
+
+a:hover{
+    text-decoration: none;
+}
+a{
+    color: black;
+}
+.socialblock{
+    text-align: center;
+    padding-top: 4%;
+}
+.contacts-block{
+    padding-top: 2%;
+}
+.partners{
+    padding-top: 2%;
+}
+.partner-text{
+    text-align: center;
+}
