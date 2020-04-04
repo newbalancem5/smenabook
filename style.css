@@ -47,11 +47,11 @@ a{
     background-image: linear-gradient(to right, black, black);
     background-position: bottom left;
     background-repeat: no-repeat;
-    background-size: 100% 3px;
+    background-size: 100% 2px;
     transition: background-size .5s ease;
 }
 .catalog:hover{
-    background-size: 100% 3px;
+    background-size: 100% 2px;
     color: red;
 }
 .socialblock{
