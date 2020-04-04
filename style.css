@@ -1,3 +1,22 @@
+@font-face{
+    src: url(./font/plumb-bold.otf);
+    font-family: Plumb;
+}
+p{
+    font-size: var(--h5);
+}
+
+h1, p, a, h3{
+    font-family: Plumb;
+}
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+a{
+    color: black;
+}
+
 .title-text, .contacts-block{
     text-align: center;
 }
@@ -20,26 +39,6 @@
 }
 .phone{
     padding-left: 1%;
-}
-p{
-    font-size: var(--h5);
-}
-
-h1, p, a, h3{
-    font-family: Plumb;
-}
-
-@font-face{
-    src: url(./font/plumb-bold.otf);
-    font-family: Plumb;
-}
-
-a:hover{
-    text-decoration: none;
-    color: red;
-}
-a{
-    color: black;
 }
 
 .catalog{
@@ -72,4 +71,14 @@ a{
 
 .elementblok{
     padding-top: 4%;
+}
+
+
+@media screen and (max-width: 500px) {
+  .phones{
+      padding-top: 7%;
+  }
+  .siyane-block{
+    padding-top: 7%;
+  }
 }
