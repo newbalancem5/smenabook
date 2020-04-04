@@ -16,6 +16,15 @@ a:hover{
 a{
     color: black;
 }
+.main{
+    position: absolute;
+    top: calc(50% - 250px);
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
 
 .title-text, .contacts-block{
     text-align: center;
