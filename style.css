@@ -3,15 +3,15 @@
 }
 
 .image-partners-siyanie{
-    height: 90px;
+    height: 80px;
 }
 .image-partners-smena{
     /* width: 200px; */
-    height: 40px;
-    margin-top: 11%;
+    height: 34px;
+    margin-top: 7%;
 }
 .image-partners-qullar{
-    /* height: 120px; */
+    height: 34;
 }
 
 .social-icon{
@@ -47,7 +47,7 @@ a{
     background-image: linear-gradient(to right, black, black);
     background-position: bottom left;
     background-repeat: no-repeat;
-    background-size: 50% 3px;
+    background-size: 100% 3px;
     transition: background-size .5s ease;
 }
 .catalog:hover{
