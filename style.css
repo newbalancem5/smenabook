@@ -3,11 +3,11 @@
 }
 
 .image-partners-siyanie{
-    height: 120px;
+    height: 90px;
 }
 .image-partners-smena{
     /* width: 200px; */
-    height: 60px;
+    height: 40px;
     margin-top: 11%;
 }
 .image-partners-qullar{
@@ -36,13 +36,28 @@ h1, p, a, h3{
 
 a:hover{
     text-decoration: none;
+    color: red;
 }
 a{
     color: black;
 }
+
+.catalog{
+    text-decoration: none;
+    background-image: linear-gradient(to right, black, black);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 50% 3px;
+    transition: background-size .5s ease;
+}
+.catalog:hover{
+    background-size: 100% 3px;
+    color: red;
+}
 .socialblock{
     text-align: center;
     padding-top: 2%;
+    display: inline-block;
 }
 .contacts-block{
     padding-top: 3%;
@@ -53,4 +68,8 @@ a{
 }
 .partner-text{
     text-align: center;
+}
+
+.elementblok{
+    padding-top: 4%;
 }
