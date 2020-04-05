@@ -90,4 +90,7 @@ a{
   .siyane-block{
     padding-top: 7%;
   }
+  .order, .promo{
+      padding-top: 7%;
+  }
 }
