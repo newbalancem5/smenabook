@@ -107,4 +107,10 @@ a{
   .icon-facebook{
       width: 70px;
   }
+  .partners-text{
+      text-align: center;
+  }
+  .contact-text{
+      text-align: center;
+  }
 }
