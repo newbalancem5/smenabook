@@ -71,8 +71,11 @@ a{
     padding-top: 3%;
 }
 .partners{
-    padding-top: 8%;
+    padding-top: 3%;
     text-align: center;
+}
+.partners-text{
+    text-align: left;
 }
 .partner-text{
     text-align: center;
@@ -94,8 +97,7 @@ a{
       padding-top: 7%;
   }
   .phone{
-    width: 250px;
-    text-align: center;
+    /* text-align: center; */
     padding-bottom: 5%;
     padding-left: 11%;
   }
