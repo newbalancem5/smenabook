@@ -8,6 +8,7 @@ p{
 
 h1, p, a, h3{
     font-family: Plumb;
+    font-display: Plumb;
 }
 a:hover{
     text-decoration: none;
